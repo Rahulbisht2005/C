@@ -1,0 +1,30 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+.main{
+    width : 100%;
+    height : 100vh;
+    background-color : coral;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+}
+.title{
+    color: darkblue;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 40px;
+}
+.col{
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    color: aqua;
+}
+input{
+    width: 50%;
+    border: 10px;
+    height: 50px;
+    background-color: yellow;
+}
